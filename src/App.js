@@ -9,6 +9,7 @@ export default function App() {
     <div className="App container gx-0 border rounded-2 my-5">
       <Header />
       <DaysForcast />
+      <a href="https://github.com/Shaghayegh-93/sample-react-project">Github link</a>
     </div>
   );
 }
