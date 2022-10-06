@@ -1,12 +1,14 @@
 
-import './App.css';
+import "./App.css";
+import DaysForcast from "./DaysForcast";
+import Header from "./Header";
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-    
+    <div className="App container gx-0 border rounded-2 my-5">
+      <Header />
+      <DaysForcast />
     </div>
   );
 }
-
-export default App;
